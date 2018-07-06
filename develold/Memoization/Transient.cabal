@@ -1,0 +1,15 @@
+name: Transient
+version: 0.0.0
+
+category:           Data
+license:             BSD3
+license-file:        LICENSE
+author:              Alberto Gómez Corona
+maintainer:          agocorona@gmail.com
+Tested-With:         GHC == 6.8.2
+Build-Type:          Simple
+build-Depends:       base , vector, old-time, mtl
+Cabal-Version:       >= 1.2
+
+exposed-modules:   Transient
+ghc-options:       -O2

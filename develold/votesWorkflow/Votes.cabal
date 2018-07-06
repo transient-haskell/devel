@@ -1,0 +1,19 @@
+name:                FreeChooser
+version:             0.2
+synopsis:            FreeChooser
+description:  
+                     FreeChooser project
+
+
+category:            Application
+license:             BSD3
+license-file:        LICENSE
+author:              Alberto Gómez Corona
+maintainer:          agocorona@gmail.com
+Tested-With:         GHC == 6.8.2
+Build-Type:          Simple
+build-Depends:       base, TCache>=0.5.4, network, plugins, Workflow, containers, array, RefSerialize,stm
+Cabal-Version:       >= 1.2
+
+exposed-modules:     Data
+ghc-options:       

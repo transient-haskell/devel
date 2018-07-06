@@ -1,0 +1,28 @@
+name: TraceT
+version: 0.1
+cabal-version: -any
+build-type: Simple
+license: GPL
+license-file: "LICENSE"
+copyright: Alberto Gómez Corona
+maintainer: agocorona@gmail.com
+build-depends:
+stability: experimental
+homepage:
+package-url:
+bug-reports:
+synopsis: some trace functions for threaded applications
+description:
+             .
+             .
+             .
+             .
+category: Debug
+author: Alberto Gómez Corona
+tested-with:
+exposed-modules:  Debug.TraceT
+build-Depends:        stm, haskell98
+data-files:
+data-dir: ""
+extra-source-files:
+extra-tmp-files:

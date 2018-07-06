@@ -1,0 +1,20 @@
+name:                Cluster
+version:             0.4
+synopsis:
+description:
+
+category:            Control
+author:              Alberto Gómez Corona
+maintainer:          agocorona@gmail.com
+Tested-With:
+Build-Type:          Simple
+build-Depends:      base>3.0
+Cabal-Version:       >= 1.2
+
+
+
+executable Cluster
+  executable: cluster
+  hs-source-dirs:
+  main-is: Main.hs
+  build-Depends:      base, process, TCache, stm, old-time, containers, network, HTTP==3001.1.3

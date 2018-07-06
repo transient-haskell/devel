@@ -1,0 +1,37 @@
+name: Votes
+version: 0.1
+license: AllRightsReserved
+license-file: ""
+copyright:
+maintainer:
+build-depends:  base -any, network,  hsp, array,  containers, directory, old-time
+              , old-locale, process,text, TCache, bytestring
+stability:
+homepage:
+package-url:
+synopsis:
+description:
+category:
+author:
+tested-with:
+extra-source-files:
+extra-tmp-files:
+ 
+
+main-is: Test.hs
+buildable: True
+cc-options:
+ld-options:
+frameworks:
+c-sources:
+extensions:
+extra-libraries:
+extra-lib-dirs:
+includes:
+include-dirs:
+hs-source-dirs: src
+other-modules: Aprobal Data Lang LangEs FreeChooser  Pages  TCache Search  UtilHTML Vote VotesH   WebServer
+ghc-prof-options:
+
+hugs-options:
+nhc-options:
