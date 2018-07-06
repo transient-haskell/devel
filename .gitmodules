@@ -1,3 +1,15 @@
 [submodule "transient"]
 	path = transient
 	url = ./transient
+[submodule "transient-universe"]
+	path = transient-universe
+	url = ./transient-universe
+[submodule "transient-examples"]
+	path = transient-examples
+	url = ./transient-examples/
+[submodule "transient-universe-tls"]
+	path = transient-universe-tls
+	url = ./transient-universe-tls
+[submodule "axiom"]
+	path = axiom
+	url = ./axiom
